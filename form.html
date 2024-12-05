@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">Form</h2>
+        <form>
+          
+            <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your full name">
+            </div>
+
+           
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+
+            
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Enter your password">
+            </div>
+
+            <div class="mb-3">
+                <label for="contact" class="form-label">Contact number</label>
+                <input type="contact" class="form-control" id="contact" placeholder="Enter your contact number">
+            </div>
+
+           
+            <div class="mb-3">
+                <label for="country" class="form-label">Country</label>
+                <select class="form-select" id="country">
+                    <option selected>Select your country</option>
+                    <option value="1">India</option>
+                    <option value="2">China</option>
+                    <option value="3">Aghanistan</option>
+                </select>
+            </div>
+
+          
+            <div class="mb-3">
+                <label class="form-label">Gender</label>
+                <div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gender" id="male" value="male">
+                        <label class="form-check-label" for="male">Male</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+                        <label class="form-check-label" for="female">Female</label>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" class="form-control" id="dob">
+            </div>
+            
+            <div class="mb-3">
+                <label for="marks10" class="form-label">10th Class Marks (%)</label>
+                <input type="number" class="form-control" id="marks10" placeholder="Enter your 10th class marks" min="0" max="100" step="0.01">
+            </div>
+            
+            <div class="mb-3">
+                <label for="marks12" class="form-label">12th Class Marks (%)</label>
+                <input type="number" class="form-control" id="marks12" placeholder="Enter your 12th class marks" min="0" max="100" step="0.01">
+            </div>
+            
+            <div class="mb-3">
+                <label for="formFile" class="form-label">Upload File</label>
+                <input class="form-control" type="file" id="formFile">
+            </div>
+
+           
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+body {
+    background-image: url('wallpapersden.com_abstract-gradient-hd-shapes_2560x1440.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
